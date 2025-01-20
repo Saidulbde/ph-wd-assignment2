@@ -1,0 +1,35 @@
+.Banner{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 40px 50px;
+    border: 2px solid skyblue;
+    
+}
+.colored-heading{
+    margin: 10;
+    padding: 10;
+}
+.orange{
+    color: orange;
+}
+.blue{
+    color: aqua;
+}
+.banner-butn{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 12px;
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+}
+.banner-img{
+    height: 120px;
+    width: 40px;
+    padding: 10px 6px;
+    float: center;
+    width: 24.99999%;
+    margin-top: -120px;
+}

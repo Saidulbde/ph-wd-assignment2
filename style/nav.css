@@ -6,7 +6,54 @@
   font-weight: 400px;
   font-style: normal;
 }
+
+
+.nav-part{
+    margin-top: 0%;
+}
 .logo-text{
     display: flex;
     align-items: center;
+    font-size: 24px; 
+    
+}
+
+/* display shared */
+.display-flex{
+    display: flex;
+    padding: 30px 40px;
+    
+}
+.navbar{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 40px 50px; 
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nave-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.contact-button{
+    background-color: orange; 
+    color: white; 
+    border-radius: 12px; 
+    padding: 5px 40px;
+}
+.nave-link1{
+    color: orange;
+}
+.nave-link2{
+    color: aqua;
+}
+.nave-link3{
+    color: skyblue;
+}
+.nave-link4{
+    color: purple;
 }
