@@ -1,63 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids-School</title>
     <link rel="stylesheet" href="style/nav.css">
     <link rel="stylesheet" href="style/banner.css">
+    <link rel="stylesheet" href="style/curriculam.css">
     <style>
-        .body{
+        .body {
             background-color: antiquewhite;
         }
     </style>
 </head>
+
 <body class=" body work-sans-font">
 
-   <header class="nav-part">
-    <nav class="navbar display-flex">
-        <div class="logo-text">
-            <img src="assets/logo.png" height="40px" width="40px" alt="add a logo ">
-            <h1>School</h1>
+    <header class="nav-part">
+        <nav class="navbar display-flex">
+            <div class="logo-text">
+                <img src="assets/logo.png" height="40px" width="40px" alt="add a logo ">
+                <h1>School</h1>
+            </div>
+            <div>
+                <ul class="nav-links display-flex">
+                    <!-- li.nav-item*4>a.nave-link -->
+                    <li class="nav-item"><a href="" class="nave-link1">Home</a></li>
+                    <li class="nav-item"><a href="" class="nave-link2">About</a></li>
+                    <li class="nav-item"><a href="" class="nave-link3">Facilities</a></li>
+                    <li class="nav-item"><a href="" class="nave-link4">Admission</a></li>
+
+                </ul>
+            </div>
+            <button class="contact-button">Contact</button>
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- 2. Banner -->
+        <div class="Banner">
+            <div>
+                <h1 class="colored-heading">
+                    <span class="orange">Empowering</span>
+                    <span class="black">students from small age</span>
+                    <span class="blue">towards vision</span>
+                </h1>
+                <p>With the courage,Confidence,Creativity and Compassion to make their Unique Condition in a Diverse and
+                    Dynamic World.</p>
+                <button class="banner-butn">Enroll Now </button>
+            </div>
+            <div class="banner-img">
+                <img src="assets/hero-kids.png" alt="add a pic">
+            </div>
         </div>
-        <div>
-            <ul class="nav-links display-flex">
-                <!-- li.nav-item*4>a.nave-link -->
-                <li class="nav-item"><a href="" class="nave-link1">Home</a></li>
-                <li class="nav-item"><a href="" class="nave-link2">About</a></li>
-                <li class="nav-item"><a href="" class="nave-link3">Facilities</a></li>
-                <li class="nav-item"><a href="" class="nave-link4">Admission</a></li>
 
-            </ul>
-        </div>
-        <button class="contact-button">Contact</button>
+        <!-- Curriculum Section -->
+        <section class="secondpart">
+            <h2 class="section-title">Standard Curriculum</h2>
+            <div class="curriculum">
 
-    </nav>
-   </header>   
-   
-   <main class="main">
-    <!-- 2. Banner -->
-     <div class="Banner">
-        <div>
-            <h1 class="colored-heading"> 
-                <span class="orange">Empowering</span> 
-                <span class="black">students from small age</span> 
-                <span class="blue">towards vision</span> 
-            </h1>
-            <p>With the courage,Confidence,Creativity and Compassion to make their Unique Condition in a Diverse and Dynamic World.</p>
-            <button class="banner-butn">Enroll Now </button>
-        </div>
-        <div class="banner-img">
-            <img src="assets/hero-kids.png" alt="add a pic">
-        </div>
-        
+                <div class="curriculum-container-box">
+                    <div class="curri-content-box">
+                        <img class="curriculum-box-img" src="assets/kinder.png" alt="Curriculum 1">
+                        <h3>Kinder (3-6) Years</h3>
+                        <div>
+                            <p>Children aged 3-6 develop holistically—academically, physically,socially, 
+                                and emotionally—while fostering a lifelong love of learning.</p>
+                        </div>
+                        <h3 style="color: purple;">Read More</h3>
+                    </div>
+                </div>
 
-     </div>
 
-   </main>
+                <div class="curriculum-container-box">
+                    <div class="curri-content-box">
+                        <img class="curriculum-box-img" src="assets/elementary.png" alt="Curriculum 2">
+                        <h3>Elementary School</h3>
+                        <div>
+                            <p>The Elementary School curriculum nurtures foundational skills in literacy,
+                                numeracy, and critical thinking through engaging and diverse learning experiences.</p>
+                        </div>
+                        <h3 style="color: black;">Read More</h3>
+                    </div>
+                </div>
 
-   <footer>
-    
-   </footer>
+
+                <div class="curriculum-container-box">
+                    <div class="curri-content-box">
+                        <img class="curriculum-box-img" src="assets/middle.png" alt="Curriculum 3">
+                        <h3>Middle(10-16) Years</h3>
+                        <div>
+                            <p>The Middle School curriculum for ages 10-16 emphasizes critical thinking,
+                                problem-solving, and the development of independent learning skills across a .</p>
+                        </div>
+                        <h3 style="color: greenyellow;">Read More</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
+
 </html>

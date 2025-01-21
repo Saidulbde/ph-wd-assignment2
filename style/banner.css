@@ -1,22 +1,24 @@
-.Banner{
+/* Banner Section */
+.Banner {
     display: flex;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-between;
     padding: 40px 50px;
     border: 2px solid skyblue;
-    
 }
-.colored-heading{
-    margin: 10;
-    padding: 10;
+
+.colored-heading {
+    font-size: 32px;
 }
-.orange{
+
+.orange {
     color: orange;
 }
-.blue{
+
+.blue {
     color: aqua;
 }
-.banner-butn{
+
+.banner-butn {
     background-color: black;
     border: 2px solid black;
     color: white;
@@ -24,12 +26,14 @@
     height: 50px;
     width: 150px;
     font-size: 24px;
+    cursor: pointer;
 }
-.banner-img{
-    height: 120px;
-    width: 40px;
-    padding: 10px 6px;
-    float: center;
-    width: 24.99999%;
-    margin-top: -120px;
+
+.banner-img {
+    width: 40%;
+}
+
+.banner-img img {
+    width: 100%;
+    width: 400px;
 }
