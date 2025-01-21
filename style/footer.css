@@ -1,0 +1,40 @@
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-col {
+    width: 30%;
+}
+
+footer .footer-col h3 {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+footer .footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-col ul li {
+    margin-bottom: 10px;
+}
+
+footer .footer-col ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+footer .social-icons img {
+    width: 30px;
+}
