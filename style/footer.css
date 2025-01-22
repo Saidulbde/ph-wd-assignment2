@@ -2,9 +2,10 @@
 footer {
     background-color: #333;
     color: white;
-    padding: 40px 50px;
+    padding: 50px 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 footer .footer-col {
@@ -12,29 +13,33 @@ footer .footer-col {
 }
 
 footer .footer-col h3 {
-    color: orange;
+    color: white;
     margin-bottom: 20px;
 }
 
 footer .footer-col ul {
     list-style: none;
-    padding: 0;
+    padding: 20px;
 }
 
 footer .footer-col ul li {
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 footer .footer-col ul li a {
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 
 footer .social-icons {
     display: flex;
     gap: 10px;
+    padding: 10px;
 }
 
 footer .social-icons img {
     width: 30px;
+    /* padding: 10px; */
 }
