@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-.work-sans-font {
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 400px;
-  font-style: normal;
-}
-
 
 .nav-part{
     margin-top: 0%;
@@ -57,3 +48,16 @@
 .nave-link4{
     color: purple;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+    .nave-link {
+        display: none;
+      }
+    
+      .nav-logo {
+        flex-grow: 1;
+      }
+
+}
+    

@@ -38,3 +38,25 @@
     width: 100%;
     width: 400px;
 }
+
+
+/* Mobile Responsiveness */
+@media (max-width: 576px) {
+    
+    .banner-img {
+      width: 100%;
+    }
+  
+    /* Content should be center-aligned */
+    .Banner {
+      width: 100%; 
+      padding: 20px; 
+      margin-top: 20px; 
+    }
+  
+    .Banner h1,
+    .Banner p {
+      margin: 0 auto;
+      width: 90%;
+    }
+  }

@@ -64,3 +64,11 @@ curriculum-box-img {
     margin: 0 ;
     font-size: 24px;
 }
+
+
+@media (max-width: 576px) {
+    .curriculum-container-box {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}

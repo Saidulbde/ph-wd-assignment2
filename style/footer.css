@@ -1,6 +1,6 @@
 /* Footer Section */
 footer {
-    background-color: #333;
+    background-color: #01ACFD;
     color: white;
     padding: 50px 50px;
     display: flex;
@@ -43,3 +43,12 @@ footer .social-icons img {
     width: 30px;
     /* padding: 10px; */
 }
+
+
+/* Mobile Responsiveness  */
+@media (max-width: 576px) {
+    .footer-col {
+      flex-direction: column;
+      padding: 10px; 
+    }
+  }

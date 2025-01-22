@@ -48,5 +48,18 @@
 }
 
 
-/*  */
+
+/* small */
+@media (max-width: 576px) {
+    .story-container-box {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+    }
+  }
+  
+  /* medium */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .story-container-box {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    }
+  }
 
