@@ -1,5 +1,5 @@
 /* Banner Section */
-.Banner {
+.Banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,8 +7,13 @@
     border: 2px solid skyblue;
 }
 
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+}
+
 .colored-heading {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .orange {
@@ -36,27 +41,15 @@
 
 .banner-img img {
     width: 100%;
+    height: auto;
     width: 400px;
 }
 
 
 /* Mobile Responsiveness */
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
+    .Banner-container, .banner-content {
+        flex-direction: column;
+    }
     
-    .banner-img {
-      width: 100%;
-    }
-  
-    /* Content should be center-aligned */
-    .Banner {
-      width: 100%; 
-      padding: 20px; 
-      margin-top: 20px; 
-    }
-  
-    .Banner h1,
-    .Banner p {
-      margin: 0 auto;
-      width: 90%;
-    }
-  }
+}

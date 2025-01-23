@@ -11,60 +11,61 @@
     <link rel="stylesheet" href="style/story.css">
     <link rel="stylesheet" href="style/footer.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-        .work-sans-font {
-        font-family: "Work Sans", serif;
-        font-optical-sizing: auto;
-        font-weight: 400px;
-        font-style: normal;
-        }
-
         .body {
-            background-color: antiquewhite;
+            background-image: url('/assets/bg.png');
+            /* background-color: bisque; */
+            
         }
     </style>
 </head>
 
 <body class=" body work-sans-font">
-
+    
     <header class="nav-part">
         <!-- navbar part -->
-        <nav class="navbar display-flex">
-            <div class="logo-text">
-                <img class="nav-logo" src="assets/logo.png" height="auto" max-width="100px" alt="add a logo ">
-                <h1>School</h1>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-content">
+                    <img class="nav-logo" src="assets/logo.png" height="auto" width="100px" alt="add a logo ">
+                    <h1 class="nav-text">SCHOOL</h1>
+                </div>
+                <div class="nav-content">
+                    <ul class="nav-link">
+                        <!-- li.nav-item*4>a.nave-link -->
+                        <li class="nav-item"><a href="" class="nave-link1">Home</a></li>
+                        <li class="nav-item"><a href="" class="nave-link2">About</a></li>
+                        <li class="nav-item"><a href="" class="nave-link3">Facilities</a></li>
+                        <li class="nav-item"><a href="" class="nave-link4">Admission</a></li>
+    
+                    </ul>
+                </div>
+                <div><button class="contact-button">Contact</button></div>
             </div>
-            <div>
-                <ul class="nav-links display-flex">
-                    <!-- li.nav-item*4>a.nave-link -->
-                    <li class="nav-item"><a href="" class="nave-link1">Home</a></li>
-                    <li class="nav-item"><a href="" class="nave-link2">About</a></li>
-                    <li class="nav-item"><a href="" class="nave-link3">Facilities</a></li>
-                    <li class="nav-item"><a href="" class="nave-link4">Admission</a></li>
-
-                </ul>
-            </div>
-            <button class="contact-button">Contact</button>
+            
 
         </nav>
     </header>
 
     <main class="main">
         <!-- 2. Banner -->
-        <div class="Banner">
-            <div>
-                <h1 class="colored-heading">
-                    <span class="orange">Empowering</span>
-                    <span class="black">students from small age</span>
-                    <span class="blue">towards vision</span>
-                </h1>
-                <p>With the courage,Confidence,Creativity and Compassion to make their Unique Condition in a Diverse and
-                    Dynamic World.</p>
-                <button class="banner-butn">Enroll Now </button>
+        <div class="Banner-container">
+            <div class="banner-content">
+                <div class="banner-item">
+                    <h1 class="colored-heading">
+                        <span class="orange">Empowering</span>
+                        <span class="black">students from small age</span>
+                        <span class="blue">towards vision</span>
+                    </h1>
+                    <p>With the courage,Confidence,Creativity and Compassion to make their Unique Condition in a Diverse and
+                        Dynamic World.</p>
+                    <button class="banner-butn">Enroll Now </button>
+                </div>
+                    
             </div>
-            <div class="banner-img">
-                <img src="assets/hero-kids.png" alt="hero-pic">
+            <div class="banner-content">
+                <div class="banner-img">
+                    <img src="assets/hero-kids.png" alt="hero-pic">
+                </div>
             </div>
         </div>
 
@@ -173,35 +174,42 @@
 
     </main>
 
-    <footer>
-        <div class="footer-col">
-            <div class="logo-text">
-                <img src="assets/logo.png" height="40px" width="40px" alt="add a logo ">
-                <h3>Kids-School</h3>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo-text">
+                    <img src="assets/logo.png" height="auto" width="100px" alt="add a logo ">
+                    <h3>Kids-School</h3>
+                </div>
+                
+                <div class="footer-text">
+                    <p>We provide the best educational experience for children.Kids' 
+                        education is all about building a strong foundation for their future. 
+                        It's not just about learning to read and write, but also developing critical thinking, 
+                        creativity, and social skills. Early childhood education focuses on 
+                        creating a stimulating environment where children can explore, discover, and grow.</p>
+                </div>
             </div>
-            
-            <p>We provide the best educational experience for children.Kids' 
-                education is all about building a strong foundation for their future. 
-                It's not just about learning to read and write, but also developing critical thinking, 
-                creativity, and social skills. Early childhood education focuses on 
-                creating a stimulating environment where children can explore, discover, and grow.</p>
-        </div>
-        <div class="footer-col">
-            <h3>About School</h3>
-            <ul>
-                <li><a href=" ">Home</a></li>
-                <li><a href=" ">About</a></li>
-                <li><a href=" ">Admission</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h3>Keep in touch </h3>
-            <div class="social-icons">
-                <img src="assets/fb.png" alt="Facebook">
-                <img src="assets/twitter.png" alt="Twitter">
-                <img src="assets/google+.png" alt="google">
-                <img src="assets/dribble.png" alt="drible">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h3>About School</h3>
+                    <ul class="footer-link">
+                        <li><a class="f-link1" href="">Home</a></li>
+                        <li><a class="f-link1" href="">About</a></li>
+                        <li><a class="f-link1" href="">Admission</a></li>
+                    </ul>
+                </div>
             </div>
+            <div class="footer-content">
+                <h3>Keep in touch </h3>
+                <div class="social-icons">
+                    <img src="assets/fb.png" alt="Facebook">
+                    <img src="assets/twitter.png" alt="Twitter">
+                    <img src="assets/google+.png" alt="google">
+                    <img src="assets/dribble.png" alt="drible">
+                </div>
+            </div>
+
         </div>
 
     </footer>
